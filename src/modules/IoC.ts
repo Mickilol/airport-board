@@ -1,11 +1,13 @@
 
 import { Container } from 'inversify';
 import { AppStore } from './store/AppStore';
+import { AxiosWrapper } from './services/AxiosWrapper';
 
 const container = new Container();
 
 const singletons = [
   AppStore,
+  AxiosWrapper,
 ];
 
 for (const singleton of singletons) {
