@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2019-02-01T11:00:00",
+    "event": "departing",
+    "flightNumber": 876,
+    "stationTitle": "Уральск",
+    "status": "в полете",
+    "isDelayed": false,
+    "delayDate": null
+  },
+  {
+    "date": "2019-02-01T06:00:00",
+    "event": "departing",
+    "flightNumber": 1258,
+    "stationTitle": "Архангельск",
+    "status": "в полете",
+    "isDelayed": false,
+    "delayDate": null
+  },
+  {
+    "date": "2019-02-01T09:00:00",
+    "event": "departing",
+    "flightNumber": 349,
+    "stationTitle": "Севастополь",
+    "status": "в полете",
+    "isDelayed": false,
+    "delayDate": null
+  },
+  {
+    "date": "2019-02-01T08:00:00",
+    "event": "departing",
+    "flightNumber": 9274,
+    "stationTitle": "Саратов",
+    "status": "в полете",
+    "isDelayed": true,
+    "delayDate": "2019-02-01T08:20:00"
+  },
+  {
+    "date": "2019-02-01T15:00:00",
+    "event": "arriving",
+    "flightNumber": 1233,
+    "stationTitle": "Иркутск",
+    "status": "в полете",
+    "isDelayed": true,
+    "delayDate": "2019-02-01T15:30:00"
+  },
+  {
+    "date": "2019-02-01T19:00:00",
+    "event": "departing",
+    "flightNumber": 349,
+    "stationTitle": "Томск",
+    "status": "в полете",
+    "isDelayed": false,
+    "delayDate": null
+  },
+  {
+    "date": "2019-02-01T22:00:00",
+    "event": "departing",
+    "flightNumber": 8622,
+    "stationTitle": "Владивосток",
+    "status": "в полете",
+    "isDelayed": true,
+    "delayDate": "2019-02-01T22:10:00"
+  },
+  {
+    "date": "2019-02-01T17:00:00",
+    "event": "arriving",
+    "flightNumber": 5023,
+    "stationTitle": "Красноярск",
+    "status": "в полете",
+    "isDelayed": true,
+    "delayDate": "2019-02-01T17:40:00"
+  }
+]

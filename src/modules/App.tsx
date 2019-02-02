@@ -27,7 +27,7 @@ class App extends Component<{}, IState> {
   }
 
   componentWillMount() {
-    // this.store.getFlightList();
+    this.store.getFlightList();
   }
 
   handleChange = (name, value) => {
@@ -35,11 +35,11 @@ class App extends Component<{}, IState> {
   };
 
   render() {
-    // TODO: сортировать по дате
     const { currentTab, searchRequest, flightType } = this.state;
     const flightArray = this.store.flightArray.filter(item =>
       (item.event === currentTab) && (item.flightNumber.toString().includes(searchRequest))
-      && (flightType === 'delayed' ? item.isDelayed : item));
+      && (flightType === 'delayed' ? item.isDelayed : item))
+      .sort((item1, item2) => item1.date.getTime() - item2.date.getTime());
 
     return (
       <div className='container airport-board'>
