@@ -120,6 +120,7 @@ code {
   &__flight-table {
     border-top: 2px solid #000;
     padding: 25px 0 0;
+    margin-bottom: 70px;
 
     &__item {
       display: flex;
@@ -167,6 +168,28 @@ code {
     }
 
 
+  }
+
+  &__footer {
+    border-top: 2px solid #000;
+    font-size: 18px;
+    padding-top: 10px;
+
+    &__social {
+      text-align: right;
+
+      &__item {
+        cursor: pointer;
+        color: #000;
+        text-decoration: none;
+        transition: color .4s;
+
+        &:hover {
+          color: #dcd600;
+        }
+      }
+
+    }
   }
 
 }

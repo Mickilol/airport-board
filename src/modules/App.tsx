@@ -104,9 +104,20 @@ class App extends Component<{}, IState> {
                 По вашему запросу ничего не найдено
               </div>
             }
-
           </div>
         </div>
+
+        <footer className='airport-board__footer row'>
+          <div className='airport-board__footer__copyright col-10'>
+            © 2019 Матюшин Данила
+          </div>
+
+          <div className='airport-board__footer__social col-2'>
+            <a href='https://vk.com/daniel_matyushin' target='_blank' className='airport-board__footer__social__item'>
+              VK
+            </a>
+          </div>
+        </footer>
       </div>
     );
   }
